@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Комплексная система \nмониторинга здоровья</string>
+    <string name="author_name">Sterlikov</string>
+    <string name="name_label">Введите ФИО:</string>
+    <string name="age_label">Введите возраст:</string>
+    <string name="sign_in_label">Вход</string>
+    <string name="pressure_label">Запись давления</string>
+    <string name="statistics_label">Запись показателей</string>
+    <string name="upper_pressure_label">Верхнее давление:</string>
+    <string name="lower_pressure_label">Нижнее давление:</string>
+    <string name="pulse_label">Пульс:</string>
+    <string name="tachycardia_label">Тахикардия</string>
+    <string name="add_label">Добавить</string>
+    <string name="weight_label">Вес:</string>
+    <string name="step_count_label">Количество шагов:</string>
+    <string name="title_activity_pressure">PressureActivity</string>
+</resources>
