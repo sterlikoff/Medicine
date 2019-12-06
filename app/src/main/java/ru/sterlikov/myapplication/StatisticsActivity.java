@@ -31,7 +31,7 @@ public class StatisticsActivity extends AppCompatActivity {
         } catch (Exception e) {
 
             hasErrors = true;
-            Toast.makeText(this, "Неверное значение в одном из полей", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.commonError, Toast.LENGTH_LONG).show();
 
         }
 
@@ -46,7 +46,7 @@ public class StatisticsActivity extends AppCompatActivity {
 
         if (hasErrors) {
 
-            Toast.makeText(this, "Заполните все поля", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.emptyError, Toast.LENGTH_LONG).show();
 
         } else {
 

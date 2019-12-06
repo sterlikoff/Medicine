@@ -1,5 +1,7 @@
 <resources>
+
     <string name="app_name">Комплексная система \nмониторинга здоровья</string>
+
     <string name="author_name">Sterlikov</string>
     <string name="name_label">Введите ФИО:</string>
     <string name="age_label">Введите возраст:</string>
@@ -14,4 +16,10 @@
     <string name="weight_label">Вес:</string>
     <string name="step_count_label">Количество шагов:</string>
     <string name="title_activity_pressure">PressureActivity</string>
+
+    <string name="nameError">Введите имя</string>
+    <string name="ageError">Введите возраст</string>
+    <string name="commonError">Неверное значение в одном из полей</string>
+    <string name="emptyError">Заполните все поля</string>
+
 </resources>

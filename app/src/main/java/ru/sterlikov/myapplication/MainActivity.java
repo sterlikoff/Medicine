@@ -5,6 +5,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -37,14 +38,14 @@ public class MainActivity extends AppCompatActivity {
         if (name.isEmpty()) {
 
             hasErrors = true;
-            Toast.makeText(this, "Введите имя", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.nameError, Toast.LENGTH_LONG).show();
 
         }
 
         if (age <= 0) {
 
             hasErrors = true;
-            Toast.makeText(this, "Введите возраст", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.ageError, Toast.LENGTH_LONG).show();
 
         }
 
@@ -63,12 +64,16 @@ public class MainActivity extends AppCompatActivity {
         Intent myIntent = new Intent(MainActivity.this, PressureActivity.class);
         MainActivity.this.startActivity(myIntent);
 
+        Log.i("userLog", "Переход к странице давления");
+
     }
 
     public void openStatisticsActivity(View view) {
 
         Intent myIntent = new Intent(MainActivity.this, StatisticsActivity.class);
         MainActivity.this.startActivity(myIntent);
+
+        Log.i("userLog", "Переход к странице показателей");
 
 
     }
